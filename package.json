@@ -1,0 +1,19 @@
+{
+  "name": "h5-viz-parser",
+  "version": "0.0.1",
+  "description": "页面可视区域元素解析",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp default; anywhere -p 7000"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "del": "~1.2.1",
+    "gulp": "~3.9.0",
+    "gulp-uglify": "~1.2.0",
+    "rollup": "~0.41.6"
+  },
+  "devDependencies": {
+    "anywhere": "~1.4.0"
+  }
+}
